@@ -68,6 +68,28 @@ body {
     margin: 2em 1em;
 }
 
+.result {
+    margin: 0 auto;
+    max-width: 18em;
+    width: 100%;
+    justify-content: space-end;
+}
+
+.result span {
+    font-weight: 700;
+}
+
+.section-final h1 {
+    font-weight: 700;
+}
+
+.section-final button {
+    font-weight: 600;
+    max-width: 12em;
+    letter-spacing: 3px;
+    width: 100%;
+}
+
 @media(max-width:500px) {
     .button-rules {
         margin-left: auto;
@@ -81,8 +103,8 @@ body {
 @media(max-width:320px) {
     .button-rules {
         position: inherit;
-        -webkit-box-align:center;
-        -webkit-box-pack:center;
-        display:-webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        display: -webkit-box;
     }
 }
